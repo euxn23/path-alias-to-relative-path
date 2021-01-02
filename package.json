@@ -1,0 +1,15 @@
+{
+  "name": "path-alias-to-relative-path",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:euxn23/path-alias-to-relative-path.git",
+  "license": "MIT",
+  "scripts": {
+    "resolve": "babel src/path/to/app/path-alias-file.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "babel-plugin-module-resolver": "^4.1.0"
+  }
+}
